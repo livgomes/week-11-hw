@@ -39,6 +39,11 @@ p {
   min-height: 700px;
 }
 
+.one-image {
+  background-image: url("imgs/um.jpg");
+  min-height: 700px;
+}
+
 .second-image {
   background-image: url("imgs/montana.jpg");
   min-height: 700px;
@@ -54,9 +59,10 @@ p {
   min-height: 700px;
 }
 
-.second {
+.one {
     min-height: 400px;
 }
+
 
 .bgimg-3 {
     min-height: 400px;
