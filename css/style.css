@@ -22,8 +22,7 @@ p {
 }
 
 .first {
-    min-height: 100vh;
-    background-image: url("imgs/img_parallax.jpg");
+    min-height: 400px;
 }
 
 .first-image, .second-image, .third-image, .forth-image {
