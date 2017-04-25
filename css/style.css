@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    color: #777;
+    font: 400 15px/1.8 "Lato", sans-serif;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.4em;
+  font-famiy: sans-serif;
+  letter-spacing: 4px;
+}
+
+.first, .second, .bgimg-3 {
+    position: relative;
+    opacity: 0.65;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.first {
+    min-height: 100vh;
+    background-image: url("imgs/img_parallax.jpg");
+}
+
+.first-image, .second-image, .third-image, .forth-image {
+  position: relative;
+  opacity: 0.65;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.first-image {
+  background-image: url("./imgs/missoula.jpg");
+  min-height: 100px;
+}
+
+.second-image {
+  background-image: url("imgs/montana.jpg");
+  min-height: 700px;
+}
+
+.third-image {
+  background-image: url("imgs/wildlife.jpg");
+  min-height: 700px;
+}
+
+.forth-image {
+  background-image: url("imgs/wilderness.jpg");
+  min-height: 700px;
+}
+
+.second {
+    min-height: 400px;
+}
+
+.bgimg-3 {
+    min-height: 400px;
+    background-image: url("imgs/img_parallax3.jpg");
+}
+
+.state {
+    padding: 50px 80px;
+    color: #777;
+    background-color: white;
+    text-align: center;
+    text-align: justify;
+}
+
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    color: red;
+    text-align: center;
+}
+
+.caption span.border {
+  padding: 12px;
+  color: red;
+  bacground-color: grey;
+  font-size: 30px;
+  letter-spacing: 6px;
+}
+
+.description-container {
+    position: relative;
+}
+
+.description {
+    padding: 50px 80px;
+    color: #ddd;
+    background-color: #282E34;
+    text-align: center;
+    text-align: justify;
+}
+
+.caption span.border {
+    padding: 18px;
+    color: #f7f7f7;
+    background-color: #4a4a4a;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+h3 {
+    color: #111;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    letter-spacing: 5px;
+}
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .first, .second, .third, .forth {
+        background-attachment: scroll;
+    }
+}
